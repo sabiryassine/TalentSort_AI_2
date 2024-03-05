@@ -15,7 +15,7 @@ import base64
 logistic_regression_model = joblib.load('models/tf_idf_model.joblib')
 tfidf_vectorizer = joblib.load('models/tfidf_vectorizer.joblib')  # Assurez-vous d'avoir sauvegardé le vecteur TF-IDF pendant l'entraînement
 label_encoder = joblib.load('models/label_encoder.joblib')
-
+#test
 # Fonction pour effectuer la prédiction
 def predict_category(text):
     # Prétraitement du texte (assurez-vous que c'est le même que celui utilisé pour l'entraînement)
